@@ -1,0 +1,12 @@
+{application, katja_poolboy,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { katja_poolboy_app, []}},
+  {env, []}
+ ]}.
