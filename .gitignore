@@ -1,0 +1,14 @@
+.DS_Store
+.erlang.mk.*
+deps/
+doc/*
+!doc/overview.edoc
+ebin/
+logs/
+erl_crash.dump
+*.analysis
+*.beam
+*.plt
+*.trace
+
+include/katja_pb.hrl
