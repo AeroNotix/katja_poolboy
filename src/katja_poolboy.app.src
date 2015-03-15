@@ -5,7 +5,9 @@
   {registered, []},
   {applications, [
                   kernel,
-                  stdlib
+                  stdlib,
+                  katja,
+                  poolboy
                  ]},
   {mod, { katja_poolboy_app, []}},
   {env, []}
